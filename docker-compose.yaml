@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  asyncio-syringe:
+    container_name: asyncio-syringe
+    image: asyncio-syringe
+    build:
+      context: .
+      args:
+        EXTRAS: "[test]"
+    tty: true
+    env_file: .env
+    entrypoint: ["bash"]
+    volumes:
+      - .:/asyncio-syringe
