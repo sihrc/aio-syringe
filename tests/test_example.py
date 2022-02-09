@@ -1,4 +1,4 @@
-from aio_syringe import injected, injection, inject
+from aio_syringe import injected, injection, inject, Injection
 from unittest.mock import AsyncMock
 
 

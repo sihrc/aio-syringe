@@ -14,6 +14,7 @@ pytest-asyncio = {version = "^0.18.0", extras = ["test"]}
 [tool.poetry.dev-dependencies]
 pytest = {version = "^6.2.4", extras = ["test"]}
 pytest-asyncio = {version = "^0.18.0", extras = ["test"]}
+flake8 = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
